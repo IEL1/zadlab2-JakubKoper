@@ -1,14 +1,9 @@
 package pl.edu.ur.main;
 
-/**
- *
- * @author marcin
- */
+import java.util.Scanner;
+
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO zad 3, 4, 6, 7
         System.out.println("To jest zadanie numer 5:");
@@ -17,6 +12,18 @@ public class Main {
                 continue;
             }
             System.out.println(i);
+        }
+        System.out.println();
+        System.out.println();
+
+        System.out.println("To jest zadanie numer 6:");
+        while (true) {
+                System.out.println("Podaj n");
+                Scanner sc = new Scanner(System.in);
+                int n = sc.nextInt();
+                if(n<0){
+                    break;
+                }
         }
     }
 
